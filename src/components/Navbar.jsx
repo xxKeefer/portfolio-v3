@@ -5,9 +5,7 @@ const Navbar = () => {
   return (
     <AppBar position="sticky">
       <Toolbar disableGutters={true}>
-        <Typography variant="h3">
-          Why is it squishing up like that??????
-        </Typography>
+        <Typography variant="h3">xxKeefer</Typography>
       </Toolbar>
     </AppBar>
   );

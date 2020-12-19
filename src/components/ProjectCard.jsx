@@ -5,7 +5,14 @@ import { makeStyles } from "@material-ui/styles";
 
 const useStyles = makeStyles({
   card: { height: "100%" },
-  project: { textAlign: "center", color: "#ff9300" },
+  project: {
+    textAlign: "center",
+    color: "#ff9300",
+    fontFamily: "Poppins",
+    fontWeight: 700,
+
+    textTransform: "uppercase",
+  },
   stack: { textAlign: "center", color: "#86deb7", fontFamily: "Poppins" },
   details: { textAlign: "center", color: "#d4d4d4", fontFamily: "Poppins" },
   picture: {
@@ -24,7 +31,7 @@ const ProjectCard = ({ project, stack, details, description, imgSrc }) => {
         <CardContent>
           <Grid container spacing={3} alignContent="center">
             <Grid item xs={12}>
-              <Typography className={classes.project} variant="h4">
+              <Typography className={classes.project} variant="h5">
                 {project}
               </Typography>
               <Typography className={classes.stack} variant="h6">

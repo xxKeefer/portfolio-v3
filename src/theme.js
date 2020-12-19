@@ -15,6 +15,7 @@ const theme = createMuiTheme({
   },
   typography: {
     fontFamily: ["Ubuntu Condensed", "sans-serif"].join(", "),
+    fontSize: 16,
   },
   overrides: {},
   props: {},

@@ -94,17 +94,17 @@ const App = () => {
                 ></ProjectCard>
                 <ProjectCard
                   project="Party Playlist Maker"
-                  stack="HTML - CSS - Vanilla JS - Node JS"
+                  stack="Vanilla JS - Node JS"
                   details="SEP 2020 - BACKEND DEVELOPER"
                   imgSrc="https://res.cloudinary.com/xxkeefer/image/upload/v1608215603/personal-website/PPMv1_vumrzv.png"
                   description="While working with a partner over the course of three days we managed to build this little Javascript app. Built with Node and Vanilla Javascript, it collects Spotify user data with Spotify’s web API, displays songs that two or more playlists have in common and shows a data visualisation of song data within the playlist."
                 ></ProjectCard>
                 <ProjectCard
-                  project="PPMv2 - rewritten in React"
+                  project="PPMv2"
                   stack="MERN STACK"
                   details="OCT 2020 - FULL STACK DEVELOPER"
                   imgSrc="https://res.cloudinary.com/xxkeefer/image/upload/v1608215677/personal-website/PPMv2_yfecif.png"
-                  description="The first time around we were told not to use React for the project the second time we decided to go for it. Deployed the Front to Netlify and the API to Heroku. Working with the same partner over another three day sprint we complete rewrote the app to be React based."
+                  description="The first time around we were told not to use React for Party Playlist Maker the second time we decided to go for it. Deployed the Front to Netlify and the API to Heroku. Working with the same partner over another three day sprint we complete rewrote the app to be React based."
                 ></ProjectCard>
               </DisplaySection>
             </Grid>
