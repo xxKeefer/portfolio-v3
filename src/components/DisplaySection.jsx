@@ -1,37 +1,23 @@
 import React from "react";
-import { Typography, Grid, Box } from "@material-ui/core";
+import { Grid, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
+import { DisplayHeader } from "./index";
 
 const useStyles = makeStyles({
-  root: {
-    fontFamily: "Lobster",
-    fontSize: 64,
-    marginBlock: 20,
-  },
-  subtitle: {
-    fontSize: 24,
-    marginBottom: 15,
-  },
-  grid: { marginInline: "auto" },
   headline: {
     marginLeft: 10,
   },
+  spacer: { marginBottom: 250 },
 });
 
 const DisplaySection = ({ title, subtitle, children }) => {
   const classes = useStyles();
   return (
-    <>
+    <Box className={classes.spacer}>
       <Box className={classes.headline}>
-        <Typography className={classes.root} variant="h1" gutterBottom>
-          {title}
-        </Typography>
-        <Typography className={classes.subtitle} variant="h2" gutterBottom>
-          {subtitle}
-        </Typography>
+        <DisplayHeader title={title} subtitle={subtitle} />
       </Box>
       <Grid
-        className={classes.grid}
         container
         spacing={2}
         alignContent="space-around"
@@ -39,7 +25,7 @@ const DisplaySection = ({ title, subtitle, children }) => {
       >
         {children}
       </Grid>
-    </>
+    </Box>
   );
 };
 

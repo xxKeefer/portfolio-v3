@@ -10,6 +10,7 @@ const theme = createMuiTheme({
     secondary: {
       main: "#ff9300",
     },
+    action: { disabled: "#3f3f3f" },
     contrastThreshold: 3,
     tonalOffset: 0.2,
   },
@@ -17,7 +18,13 @@ const theme = createMuiTheme({
     fontFamily: ["Ubuntu Condensed", "sans-serif"].join(", "),
     fontSize: 16,
   },
-  overrides: {},
+  overrides: {
+    MuiAppBar: {
+      colorDefault: {
+        backgroundColor: "#292826",
+      },
+    },
+  },
   props: {},
 });
 
