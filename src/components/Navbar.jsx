@@ -3,7 +3,6 @@ import { ScrollHide, ContactModal } from "./index";
 import { AppBar, Toolbar, Typography, Box, Hidden } from "@material-ui/core";
 import { SvgLoader, SvgProxy } from "react-svgmt";
 import { makeStyles } from "@material-ui/styles";
-import { SocialIcons } from "./index";
 
 const useStyles = makeStyles({
   logo: {
