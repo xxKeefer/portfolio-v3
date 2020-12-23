@@ -24,6 +24,19 @@ const theme = createMuiTheme({
         backgroundColor: "#292826",
       },
     },
+    MuiButton: {
+      contained: {
+        fontFamily: ["Poppins", "sans-serif"].join(", "),
+        fontWeight: 700,
+      },
+    },
+    MuiIconButton: {
+      colorPrimary: {
+        "&:hover": {
+          color: "#ff9300",
+        },
+      },
+    },
   },
   props: {},
 });

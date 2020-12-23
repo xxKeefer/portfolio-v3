@@ -4,6 +4,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { Navbar, DisplaySection, ContentCard, ProjectCard } from "./components";
+import { HeroSection } from "./components";
 import { Container, Grid } from "@material-ui/core";
 import { ThemeProvider, CssBaseline } from "@material-ui/core";
 
@@ -17,6 +18,19 @@ const App = () => {
         <Navbar></Navbar>
         <Container>
           <Grid container alignContent="space-around">
+            <Grid item xs={12}>
+              <DisplaySection
+                hero={true}
+                title={{
+                  pre: "Daniel John ",
+                  accent: "Keefer ",
+                  etc: "",
+                }}
+                subtitle="Professional Web Wizard for Hire."
+              >
+                <HeroSection></HeroSection>
+              </DisplaySection>
+            </Grid>
             <Grid item xs={12}>
               <DisplaySection
                 title={{
