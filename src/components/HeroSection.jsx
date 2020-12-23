@@ -1,5 +1,5 @@
 import React from "react";
-// import clsx from "clsx";
+import clsx from "clsx";
 import { Grid, Paper, Box } from "@material-ui/core";
 import { SvgLoader, SvgProxy } from "react-svgmt";
 import { makeStyles } from "@material-ui/styles";
@@ -12,6 +12,9 @@ const useStyles = makeStyles({
     justifyContent: "center",
     width: "100%",
     padding: 10,
+  },
+  fullHeight: {
+    height: "100%",
   },
 });
 
@@ -33,7 +36,7 @@ const HeroSection = () => {
         </Paper>
       </Grid>
       <Grid item xs={12} sm={5} md={6} lg={7} xl={8}>
-        <Paper className={classes.center}>
+        <Paper className={clsx(classes.center, classes.fullHeight)}>
           <Box>
             <QuotesHero />
           </Box>

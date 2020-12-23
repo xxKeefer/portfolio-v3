@@ -98,10 +98,21 @@ const App = () => {
                   stack="HTML - CSS - Vanilla JS"
                   details="MAR 2020 - SOLE DEVELOPER"
                   imgSrc="https://res.cloudinary.com/xxkeefer/image/upload/v1608212076/personal-website/portfolio-v1_qq2jy3.png"
-                  description="The first iteration of this website, designed to meet the criteria of the assignment set to me by Coder Academy at the time."
+                  description="The first iteration of this website, designed to meet the criteria of the assignment set to me by Coder Academy at the time. Not bad, but I felt that I could have done better with more creative license. Features a theme switcher."
                   links={{
                     github: "https://github.com/xxKeefer/portfolio",
                     www: "https://xxkeefer.netlify.app/",
+                  }}
+                ></ProjectCard>
+                <ProjectCard
+                  project="Portfolio Version Two"
+                  stack="HTML - SASS - Vanilla JS"
+                  details="APR 2020 - SOLE DEVELOPER"
+                  imgSrc="https://res.cloudinary.com/xxkeefer/image/upload/v1608705668/personal-website/portfoli-v2_dk0e56.png"
+                  description="The Second iteration of this website. After my first attempt which was as an assignment for Coder Academy, I really wanted to put something out there without the restrictions of a marking criteria. I felt this looked a lot better."
+                  links={{
+                    github: "https://github.com/xxKeefer/portfolio-v2",
+                    www: "https://xxkeef-port-v2.netlify.app/",
                   }}
                 ></ProjectCard>
                 <ProjectCard
@@ -109,7 +120,7 @@ const App = () => {
                   stack="React Javascript"
                   details="APR 2020 - SOLE DEVELOPER"
                   imgSrc="https://res.cloudinary.com/xxkeefer/image/upload/v1608212074/personal-website/ppcalc-clip_qcd7ul.png"
-                  description="A Calculator that helps customers calculate the time it'll take to save Telstra Plus Points.Current Points: How many you have,Monthly Spend: The cost of your typical bill,Product Points: The points cost of the item you want,Bonus Points: the points from a bonus offer your taking up if there is one."
+                  description="A Calculator that helps customers calculate the time it'll take to save Telstra Plus Points. Current Points: How many you have, Monthly Spend: The cost of your typical bill, Product Points: The points cost of the item you want, Bonus Points: the points from a bonus offer your taking up if there is one."
                   links={{
                     github: "https://github.com/xxKeefer/plus-points-calc",
                     www: "https://ppcalc.herokuapp.com/",
@@ -131,7 +142,7 @@ const App = () => {
                   stack="Vanilla JS - Node JS"
                   details="SEP 2020 - BACKEND DEVELOPER"
                   imgSrc="https://res.cloudinary.com/xxkeefer/image/upload/v1608215603/personal-website/PPMv1_vumrzv.png"
-                  description="While working with a partner over the course of three days we managed to build this little Javascript app. Built with Node and Vanilla Javascript, it collects Spotify user data with Spotify’s web API, displays songs that two or more playlists have in common and shows a data visualisation of song data within the playlist."
+                  description="While working with a partner over the course of three days we managed to build this little Javascript app. Built with Node and Vanilla Javascript, it collects Spotify user data with Spotify’s web API, displays songs that two or more playlists have in common and shows a data visualisation of song data within the playlists."
                   links={{
                     github:
                       "https://github.com/xxKeefer/spotify-party-playlist",
