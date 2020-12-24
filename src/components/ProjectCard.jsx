@@ -53,7 +53,7 @@ const ProjectCard = ({
   const classes = useStyles();
   const [expanded, setExpanded] = useState(false);
   return (
-    <Grid item xs={12} sm={6} md={6} lg={4} xl={3}>
+    <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
       <Card className={classes.card}>
         <CardContent>
           <Typography className={classes.project} variant="h5">
